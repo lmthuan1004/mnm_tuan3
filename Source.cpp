@@ -1,14 +1,23 @@
 #include <iostream>
 
 using namespace std;
+int tich(int a, int b) {
+	return a * b;
+}
+float thuong(int a, int b) {
+	if (b == 0)
+		cout << "\n B sai vui long nhap lai";
+	else
+	{
+		return a / b;
+	}
+}
 int hieu(int a, int b) {
 	return a - b;
 }
 int tong(int a, int b) {
 	return a + b;
 }
-int tich(int a, int b);
-float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
